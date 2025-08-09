@@ -1,0 +1,8 @@
+demo_dbt:
+  outputs:
+    dev:
+      type: sqlite
+      threads: 1
+      database: sample.db
+      schema: main
+  target: dev
